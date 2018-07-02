@@ -1,9 +1,9 @@
-#This can be used as a helper function for a bigger project
+#This can be used as a helper function 
 __author__ = "Neeraj Menon"
 __email__ = "neerajmenons@gmail.com"
 
 #Sigmoid function produces similar results to step function in that the output is between 0 and 1.
-#Thus mainly uved in logistic regression
+#sigmoid and tanh are some non linearities that were prominent before relu was introduced
 
 import numpy as np
 def sigmoid(z):
