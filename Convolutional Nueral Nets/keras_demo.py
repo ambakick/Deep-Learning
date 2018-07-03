@@ -97,3 +97,9 @@ happyModel.compile(optimizer = "adam",loss = "binary_crossentropy",metrics = ["a
 #training using keras is just single line
 #i still recommend implementing using tensorflow or lower level api to get the taste of what is going on
 happyModel.fit(x = X_train,y = Y_train,epochs =40 ,batch_size = 16 )
+
+#test on the test data splitted initially
+preds = happyModel.evaluate(x = X_test,y = Y_test)
+print()
+print ("Loss = " + str(preds[0]))
+print ("Test Accuracy = " + str(preds[1]))
