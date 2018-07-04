@@ -1,3 +1,5 @@
+__author__ = "Neeraj Menon"
+__email__ = "neerajmenons@gmail.com"
 #importing all the required packages
 
 import numpy as np
